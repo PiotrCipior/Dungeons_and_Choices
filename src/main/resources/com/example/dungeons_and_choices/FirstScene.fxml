@@ -5,18 +5,19 @@
 <?import javafx.scene.layout.*?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Text?>
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.example.dungeons_and_choices.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
 
-    <Label text="Wchodzisz do karczmy. Dosyć zwykłej jak na ten region. Caly drewniany, z kamiennymi wykończeniami.
-    Przyglądając się ścianom możesz zuważyć wypchane głowy jeleni, dzików i... rekina? Dosyć wyjątkowy
-    widok na karczme oddaloną trzy tygodnie marszu od najbliższego oceanu. Przy stołach możesz
-    zobaczyć napakowanych opryszków, młodą parę oraz młodą kobiete która anielskim głosem śpiewa o
-    nadejściu jakiegoś smoczego dziecia. Za blatem stał karczmarz który brudną szmatą wycierał jeszcze
-    brudniejsze kubki. Postanawiasz..." alignment="BASELINE_CENTER" wrapText="true" />
+    <Text text="Wchodzisz do karczmy. Dosyć zwykłej jak na ten region. Cała drewniana, z kamiennym wykończeniem.
+Przyglądając się ścianom możesz zauważyć wypchane głowy jeleni, dzików i... rekina?
+Dosyć wyjątkowy widok na karczmę oddaloną trzy tygodnie marszu od najbliższego oceanu.
+Przy stołach siedzą napakowane opryszki oraz młoda para, a przy kamiennym kominku
+stoi młodą kobietę która anielskim głosem śpiewa o nadejściu jakiegoś smoczego dziecięcia.
+Za blatem stał karczmarz który brudną szmatą wycierał jeszcze brudniejsze kubki. Postanawiasz..." textAlignment="CENTER" wrappingWidth="550" />
     <Button text="Podejść do głowy rekina"  onAction="#shark" alignment="BASELINE_CENTER" maxWidth="160" translateX="-120" />
     <Button text="Zagadać do opryszków"  onAction="#hooligans" alignment="BASELINE_CENTER" maxWidth="160" translateX="120" translateY="-46"/>
     <Button text="Podejść do ministrelki"  onAction="#ministrel" alignment="BASELINE_CENTER" maxWidth="160" translateX="-120"/>
