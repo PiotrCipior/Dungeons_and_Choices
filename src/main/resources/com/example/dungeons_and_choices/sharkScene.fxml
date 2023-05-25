@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.dungeons_and_choices.shark">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Text text="Lorem ipsum itd takie tam" textAlignment="CENTER" wrappingWidth="500" />
+    <Button fx:id="button" text="Sięgnij do głowy rekina"  onAction="#putIn" alignment="BASELINE_CENTER" maxWidth="160" translateX="-120" />
+    <Button fx:id="button1" text="Powstrzymaj się"  onAction="#dontPutIn" alignment="BASELINE_CENTER" maxWidth="160" translateX="120" translateY="-46"/>
+    <Text text="Działa, mogę spanko" fx:id="ect" textAlignment="CENTER" wrappingWidth="500" visible="false"/>
+</VBox>

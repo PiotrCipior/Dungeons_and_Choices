@@ -13,22 +13,22 @@ public class HelloController {
 
     @FXML
     protected void onHelloButtonClick(ActionEvent event) throws IOException {
-        SceneController.switchToScene1(event,"FirstScene");
+        SceneController.switchToScene(event,"FirstScene");
     }
     @FXML
     protected void shark(ActionEvent event) throws IOException {
-        SceneController.switchToScene1(event,"FirstScene");
+        SceneController.switchToScene(event,"sharkScene");
     }
     @FXML
     protected void hooligans(ActionEvent event) throws IOException {
-        SceneController.switchToScene1(event,"FirstScene");
+        SceneController.switchToScene(event,"FirstScene");
     }
     @FXML
     protected void ministrel(ActionEvent event) throws IOException {
-        SceneController.switchToScene1(event,"FirstScene");
+        SceneController.switchToScene(event,"FirstScene");
     }
     @FXML
     protected void beer(ActionEvent event) throws IOException {
-        SceneController.switchToScene1(event,"FirstScene");
+        SceneController.switchToScene(event,"FirstScene");
     }
 }
