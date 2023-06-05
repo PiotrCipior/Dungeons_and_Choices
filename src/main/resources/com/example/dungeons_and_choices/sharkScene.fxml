@@ -14,8 +14,11 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
 
-    <Text text="Lorem ipsum itd takie tam" textAlignment="CENTER" wrappingWidth="500" />
-    <Button fx:id="button" text="Sięgnij do głowy rekina"  onAction="#putIn" alignment="BASELINE_CENTER" maxWidth="160" translateX="-120" />
-    <Button fx:id="button1" text="Powstrzymaj się"  onAction="#dontPutIn" alignment="BASELINE_CENTER" maxWidth="160" translateX="120" translateY="-46"/>
-    <Text text="Działa, mogę spanko" fx:id="ect" textAlignment="CENTER" wrappingWidth="500" visible="false"/>
+    <Text text="Zaciekawiła Cię ogromna głowa żarłacza białego. Widać po nim ślady walki, prawdopodobnie nie jednej.
+ Szramy jak u wiedźmina, a przy skrzelach głęboka dziura po harpunie. Szare łuski zapierają dech w piersi, a śnieżno-białe kły
+ przyprawiają o dreszcze. Ale właśnie… Jeden z zębów wygląda dość wyjątkowo… Chcesz po niego sięgnąć?" textAlignment="CENTER" wrappingWidth="500" />
+    <Button fx:id="button" text="Tak, wyjmij zęba"  onAction="#putIn" alignment="BASELINE_CENTER" maxWidth="160" translateX="-120"/>
+    <Button fx:id="button1" text="Nie, nie będę mu wkładał ręki do paszczy"  onAction="#dontPutIn" alignment="BASELINE_CENTER" maxWidth="160" translateX="120" translateY="-46"/>
+    <Text text="" fx:id="choice" textAlignment="CENTER" wrappingWidth="500" visible="false"/>
+    <Button fx:id="next" text="Wybiegnij z karczmy"  onAction="#run" alignment="BASELINE_CENTER" maxWidth="160" visible="false" disable="true"/>
 </VBox>
